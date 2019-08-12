@@ -5,25 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    function checkIsprime(number) {
-        if (number < 2) {
-            return false;
-        } else {
-            for (let i = 3; i < Math.sqrt(number); i += 2) {
-                if (number % i === 0) {
-                    return false;
-                }
-            }
-        } return true;
-    }
-    let number = Number(prompt("Enter the number:"));
-    if (checkIsprime(number)== true) {
-        alert(number + " is a prime number");
-    } else {
-        alert(number + " not a isprime number");
-    }
-</script>
-
+<script src="checkPrime.js"></script>
+<script src="outputPrime.js"></script>
 </body>
 </html>
